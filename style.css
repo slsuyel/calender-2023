@@ -1,0 +1,92 @@
+
+body {
+    width: 1140px;
+    margin: auto;
+    margin-top: 57px;
+    background: black;
+}
+
+.header {
+    background-image: url(img/Banner-Introduction-to-3D-Animation.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 370px;
+}
+
+.month {
+    margin-bottom: -32px;
+}
+.month-name {
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 9px;
+}
+.calender-days {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 50px repeat(5,50px);
+    row-gap: 2px;
+    column-gap: 2px;
+}  
+.calender-body {
+    background: linear-gradient(90deg, #a43ec4 0%, rgb(10, 5, 57) 32%, rgb(62, 21, 151) 100%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding: 0px 40px;
+    padding-bottom: 108px;
+    margin-bottom: 70px;
+}
+
+.date {
+    background-color: rgb(240, 243, 245);
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif';
+}
+
+.day {
+    background: #19d4e8;
+    text-align: center;
+    color: rgb(62, 21, 151);
+    padding-top: 11px;
+    font-family: 'Bree Serif';
+    font-size: 24px;
+}
+.holydays {
+    background: #e1c9f9;
+    color: #0b0202;
+}
+span.design {
+    color: #eeeeee;
+    font-family: auto;
+}
+p.name {
+    color: white;
+    font-family: 'Bree Serif';
+}
+
+p.reson {
+    margin-top: -180px;
+    font-size: 11px;
+    width: 70%;
+    color: #ffffffd9;
+    font-family: cursive;
+    margin-left: 39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
