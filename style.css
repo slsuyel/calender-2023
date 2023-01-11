@@ -10,7 +10,7 @@ body {
     background-image: url(img/Banner-Introduction-to-3D-Animation.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 370px;
+    height: 380px;
 }
 
 .month {
@@ -78,9 +78,14 @@ p.reson {
     font-family: cursive;
     margin-left: 39px;
 }
-
-
-
+h2.calender {
+    font-family: 'Bree Serif';
+    color: #a13dc1;
+    position: relative;
+    top: 325px;
+    text-align: center;
+    font-size: 45px;
+}
 
 
 
