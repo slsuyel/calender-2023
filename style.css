@@ -86,8 +86,48 @@ h2.calender {
     text-align: center;
     font-size: 45px;
 }
+button {
+    display: none;
+}
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+        margin: 0;
+        background: linear-gradient(90deg, #a43ec4 0%, rgb(10, 5, 57) 32%, rgb(62, 21, 151) 100%);
+    }
+    header.header {
+        width: 100%;
+    }
+    h2.calender{
+        top: 101px;
+        font-size: 34px;
 
+    }
+    .header {
+        height: 100%;
+        padding-bottom: 65px;
+    }
 
+    p.reson {
+        font-size: 7px;
+        margin-top: -191px;
+    }
+    .calender-body{
+
+      grid-template-columns: repeat(1,1fr);
+    }
+    button {
+        rotate: 90deg;
+        position: absolute;
+        right: 0;
+      
+        border-radius: 8px;
+        font-family: cursive;
+        padding: 3px;
+        color: #38138b;
+        display: block;
+    }
+}
 
 
 
